@@ -22,10 +22,11 @@ class District extends Component {
             >
               <hr></hr>
               <h5>
-                For any district REPLACE the district name from the link :
+                For any district REPLACE the district name from the link in
+                lowercase without any space i.e ranchi:
               </h5>
               <h5>
-                https://datascraping001.herokuapp.com/api_covinet?placename=DISTRICT_NAME
+                https://datascraping001.herokuapp.com/api_covinet?placename=DISTRICTNAME
               </h5>
               <hr></hr>
             </div>
