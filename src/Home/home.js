@@ -35,8 +35,11 @@ const Home = () => {
               </option>
             </select>
           </div>
-          <div className="col-md-12">
-            <img src={api} style={{ width: "100%" }} />
+          <div
+            className="col-md-12"
+            style={{ textAlign: "center", marginTop: "20px" }}
+          >
+            <img src={api} style={{ width: "70%" }} />
           </div>
         </div>
       </div>
