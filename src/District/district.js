@@ -13,6 +13,22 @@ class District extends Component {
             >
               <img src={district} style={{ width: "50%" }} />
             </div>
+            <div
+              style={{
+                textAlign: "center",
+                color: "#009b77",
+                marginTop: "10vh",
+              }}
+            >
+              <hr></hr>
+              <h5>
+                For any district REPLACE the district name from the link :
+              </h5>
+              <h5>
+                https://datascraping001.herokuapp.com/api_covinet?placename=DISTRICT_NAME
+              </h5>
+              <hr></hr>
+            </div>
           </div>
         </div>
       </>

@@ -28,6 +28,11 @@ class About extends Component {
             <p className="heading-au" style={{ fontSize: "30px" }}>
               What we do
             </p>
+            <h6>
+              # We have scrapped the govt website and made the api, if you want
+              to contribute in api creation our github link is provided in
+              contact section
+            </h6>
             This website is an initiative by students as an attempt to provide
             consolidated information regarding the availability of covid medical
             resources. During this massive surge of the COVID-19 pandemic, it

@@ -21,14 +21,18 @@ const Home = () => {
           <div className="col-md-12">
             <select
               onChange={handleChange}
-              className=" form-select option_box"
-              style={{ boxShadow: "2px 2px 10px green", marginTop: "30vh" }}
+              className=" form-select option_box col-md-12"
+              style={{ boxShadow: "2px 2px 10px green", marginTop: "20vh" }}
             >
-              <option selected value="1">
-                Choose
+              <option selected value="1" style={{ overflow: "hidden" }}>
+                select here
               </option>
-              <option value="2">State</option>
-              <option value="3">District</option>
+              <option value="2" style={{ overflow: "hidden" }}>
+                State
+              </option>
+              <option value="3" style={{ overflow: "hidden" }}>
+                District
+              </option>
             </select>
           </div>
           <div className="col-md-12">

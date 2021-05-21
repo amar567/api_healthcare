@@ -38,7 +38,7 @@ class Navbar extends Component {
                 style={{ paddingLeft: "10px" }}
                 style={{ color: "white" }}
               >
-                OxynetAPI
+                CovinetAPI
               </a>
               <div class="" style={{ display: "flex" }}>
                 <Link

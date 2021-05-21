@@ -43,10 +43,10 @@ class Contact extends Component {
               </h5>
               <h5>
                 <a
-                  href="mailto:info.oxynet@gmail.com"
+                  href="mailto:covinet@gmail.com"
                   style={{ textDecoration: "none" }}
                 >
-                  info.oxynet@gmail.com
+                  info.covinet@gmail.com
                 </a>
               </h5>
             </div>

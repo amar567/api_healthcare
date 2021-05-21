@@ -17,6 +17,14 @@ class State extends Component {
                 style={{ width: "40%", height: "90%", marginTop: "-20px" }}
               />
             </div>
+            <div style={{ textAlign: "center", color: "#009b77" }}>
+              <hr></hr>
+              <h5>For any state REPLACE the state name from the link :</h5>
+              <h5>
+                https://datascraping001.herokuapp.com/api_covinet?placename=STATE_NAME
+              </h5>
+              <hr></hr>
+            </div>
           </div>
         </div>
       </>
