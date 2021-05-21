@@ -1,7 +1,6 @@
 import React from "react";
 import api from "../backgroundPhotos/back1.png";
 import { Link, useHistory } from "react-router-dom";
-import "./home.css";
 
 const Home = () => {
   let history = useHistory();
@@ -23,7 +22,7 @@ const Home = () => {
             <select
               onChange={handleChange}
               className=" form-select option_box"
-              style={{ boxShadow: "2px 2px 10px green", marginTop: "100px" }}
+              style={{ boxShadow: "2px 2px 10px green", marginTop: "30vh" }}
             >
               <option selected value="1">
                 Choose

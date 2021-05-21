@@ -8,7 +8,7 @@ class About extends Component {
         <div className="row">
           <div
             className="col-md-12"
-            style={{ marginBottom: "20px", marginTop: "80px" }}
+            style={{ marginBottom: "20px", marginTop: "20vh" }}
           >
             <p className="heading-au" style={{ fontSize: "30px" }}>
               About us

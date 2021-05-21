@@ -1,13 +1,13 @@
 import React, { Component } from "react";
+import "./footer.css";
 
 class Footer extends Component {
-  state = {};
   render() {
     return (
       <div className="container">
         <div className="row">
           <div
-            className="col-md-12"
+            className="col-md-12 footer"
             style={{
               boxShadow: "2px 2px 10px lightgreen",
               position: "fixed",
@@ -16,7 +16,6 @@ class Footer extends Component {
               left: "9%",
               backgroundColor: "#009b77",
               textAlign: "center",
-              fontSize: "17px",
               padding: "7px",
               color: "white",
             }}

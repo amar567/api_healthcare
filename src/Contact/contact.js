@@ -5,12 +5,25 @@ class Contact extends Component {
   render() {
     return (
       <>
-        <div className="container" style={{ textAlign: "center" }}>
-          <div className="row">
-            <div
-              className="col-md-4 offset-md-2"
-              style={{ marginTop: "18%", textAlign: "center" }}
-            >
+        <div
+          className="container"
+          style={{
+            textAlign: "center",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            height: "100vh",
+          }}
+        >
+          <div
+            className="row"
+            style={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <div className="col-md-4" style={{ marginBottom: "100px" }}>
               <h2>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -37,11 +50,9 @@ class Contact extends Component {
                 </a>
               </h5>
             </div>
-
             <div
               className="col-md-4 "
               style={{
-                marginTop: "19%",
                 textAlign: "center",
               }}
             >
