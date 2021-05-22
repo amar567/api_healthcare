@@ -1,0 +1,8 @@
+@media (max-width:700px){
+    .desc{
+        font-size: 10px;
+    }
+    .home-image{
+        margin-top: 100vh;
+    }
+}

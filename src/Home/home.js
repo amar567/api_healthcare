@@ -1,6 +1,7 @@
 import React from "react";
 import api from "../backgroundPhotos/back1.png";
 import { Link, useHistory } from "react-router-dom";
+import "./home.css";
 
 const Home = () => {
   let history = useHistory();
@@ -35,11 +36,31 @@ const Home = () => {
               </option>
             </select>
           </div>
+          <div className="col-md-12">
+            <p
+              style={{
+                color: "#009b77",
+                marginTop: "10px",
+                marginBottom: "-60px",
+                zIndex: "10000 !important",
+                textAlign: "center",
+              }}
+              className="desc"
+            >
+              Here you can find the API for covid hospitals, bed details (oxygen
+              and normal), address, phone no, last updated date and time along
+              with state and district from govt.
+            </p>
+          </div>
           <div
-            className="col-md-12"
-            style={{ textAlign: "center", marginTop: "20px" }}
+            className="col-md-12 home-image"
+            style={{
+              textAlign: "center",
+              zIndex: "-10",
+              marginTop: "20vh",
+            }}
           >
-            <img src={api} style={{ width: "70%" }} />
+            <img src={api} style={{ width: "60vw" }} />
           </div>
         </div>
       </div>
