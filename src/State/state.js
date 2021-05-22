@@ -58,7 +58,11 @@ class State extends Component {
             {this.state.url && (
               <div
                 className="alert alert-primary"
-                style={{ textAlign: "center", marginTop: "10px" }}
+                style={{
+                  textAlign: "center",
+                  marginTop: "10px",
+                  overflowWrap: "break-word",
+                }}
               >
                 {this.state.url}
               </div>

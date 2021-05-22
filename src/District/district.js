@@ -65,7 +65,11 @@ class District extends Component {
               {this.state.url && (
                 <div
                   className="alert alert-primary col-md-12"
-                  style={{ textAlign: "center", marginTop: "10px" }}
+                  style={{
+                    textAlign: "center",
+                    marginTop: "10px",
+                    overflowWrap: "break-word",
+                  }}
                 >
                   {this.state.url}
                 </div>
