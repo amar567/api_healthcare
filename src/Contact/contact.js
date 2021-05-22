@@ -54,6 +54,7 @@ class Contact extends Component {
               className="col-md-4 "
               style={{
                 textAlign: "center",
+                marginTop: "15px",
               }}
             >
               <h2>

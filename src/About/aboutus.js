@@ -45,7 +45,7 @@ class About extends Component {
             crisis.
           </div>
           <hr></hr>
-          <div style={{ marginBottom: "20px" }}>
+          <div style={{ marginBottom: "60px" }}>
             <p className="heading-au" style={{ fontSize: "30px" }}>
               Our Vision
             </p>

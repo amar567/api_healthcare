@@ -6,15 +6,13 @@ class Navbar extends Component {
     return (
       <>
         <div
-          className="container"
+          className="container-fluid"
           style={{
             marginBottom: "20px",
             boxShadow: "2px 2px 10px lightgreen",
-            marginTop: "5px",
             position: "fixed",
             textAlign: "center",
-            left: "9%",
-            width: "84%",
+            left: "0",
           }}
         >
           <div
