@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import api from "../backgroundPhotos/back1.png";
 import { useHistory } from "react-router-dom";
 import { Link } from "react-router-dom";
@@ -18,6 +18,18 @@ const Home = () => {
       setVal(3);
     }
   };
+
+  useEffect(() => {
+    const result = fetch(
+      `https://datascraping001.herokuapp.com/apiViewCount_`,
+      {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    ).then((res) => res.json());
+  }, []);
 
   return (
     <>
