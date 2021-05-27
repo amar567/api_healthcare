@@ -51,9 +51,9 @@ const Home = () => {
               }}
               className="desc"
             >
-              Here you can find the API for covid hospitals, bed details (oxygen
-              and normal), address, phone no, last updated date and time along
-              with state and district from govt.
+              Here you can find the API for govt data of covid hospitals, bed
+              details (oxygen and normal), address, phone no, last updated date
+              and time along with state and district, made by our team.
             </div>
           </div>
           <div style={{ height: "6vh" }}></div>
@@ -90,11 +90,11 @@ const Home = () => {
           )}
           <div
             style={{
-              fontzeSize: "25px",
+              fontzeSize: "20px",
               textDecoration: "underline",
               textAlign: "center",
               color: "blue",
-              bottom: "70px",
+              bottom: "42px",
               cursor: "pointer",
               position: "absolute",
               left: "2vw",
