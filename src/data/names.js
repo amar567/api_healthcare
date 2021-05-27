@@ -39,7 +39,7 @@ const districtArray = [
   "chitoor",
   "damoh",
   "datia",
-  "delhi"
+  "delhi",
   "dewas",
   "dhar",
   "dindori",
@@ -109,10 +109,10 @@ const districtArray = [
   "ujjain",
   "umaria",
   "vidisha",
-  "visakhapatanam"
+  "visakhapatanam",
   "vizianagram",
   "westgodavari",
-  "yrs"
+  "yrs",
   "yamunanagar",
 ];
 
