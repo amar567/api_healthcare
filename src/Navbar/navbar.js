@@ -8,7 +8,7 @@ class Navbar extends Component {
         <div
           className="container-fluid"
           style={{
-            marginBottom: "20px",
+            marginBottom: "18vh",
             boxShadow: "2px 2px 10px rgb(123, 96, 100)",
             position: "fixed",
             textAlign: "center",

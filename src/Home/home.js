@@ -23,28 +23,26 @@ const Home = () => {
     <>
       <div className="container-fluid">
         <div className="row">
-          <div className="col-md-12">
-            <div style={{ height: "4vh" }}></div>
-          </div>
-
-          <div className="col-md-12">
-            <h6
+          <div
+            style={{
+              marginTop: "15vh",
+            }}
+          >
+            <div
               style={{
-                marginTop: "18vh",
                 zIndex: "10000 !important",
+                margin: "auto",
                 textAlign: "center",
                 maxWidth: "700px",
-                fontSize: "2vh",
+                fontSize: "2.2vh",
                 display: "block",
-
-                margin: "auto",
               }}
               className="desc"
             >
               Here you can find the API for covid hospitals, bed details (oxygen
               and normal), address, phone no, last updated date and time along
               with state and district from govt.
-            </h6>
+            </div>
           </div>
           <div style={{ height: "6vh" }}></div>
           <select
