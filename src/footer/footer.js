@@ -9,11 +9,11 @@ class Footer extends Component {
           <div
             className="col-md-12 footer"
             style={{
-              boxShadow: "2px 2px 10px lightgreen",
+              boxShadow: "2px 2px 10px rgb(123, 96, 100)",
               position: "fixed",
               bottom: "0",
               left: "0",
-              backgroundColor: "#009b77",
+              backgroundColor: "rgb(123, 96, 247)",
               textAlign: "center",
               padding: "7px",
               color: "white",

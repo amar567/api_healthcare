@@ -9,7 +9,7 @@ class Navbar extends Component {
           className="container-fluid"
           style={{
             marginBottom: "20px",
-            boxShadow: "2px 2px 10px lightgreen",
+            boxShadow: "2px 2px 10px rgb(123, 96, 100)",
             position: "fixed",
             textAlign: "center",
             left: "0",
@@ -18,7 +18,7 @@ class Navbar extends Component {
           <div
             className="row"
             style={{
-              backgroundColor: "#009b77",
+              backgroundColor: "rgb(123, 96, 247)",
               marginRight: "-25px",
               marginLeft: "-25px",
             }}

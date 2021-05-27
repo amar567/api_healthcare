@@ -1,5 +1,5 @@
 const stateArray = [
-  "uttrakhand",
+  "uttarakhand",
   "uttarpradesh",
   "rajasthan",
   "kerala",
