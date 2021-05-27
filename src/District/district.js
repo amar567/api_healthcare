@@ -63,7 +63,7 @@ class District extends Component {
                 />
                 <button
                   className="btn btn-primary "
-                  style={{ width: "30%" }}
+                  style={{ width: "30%", fontSize: "12px" }}
                   onClick={this.handleSearch}
                 >
                   Generate

@@ -57,7 +57,7 @@ class State extends Component {
               />
               <button
                 className="btn btn-primary col-md-2"
-                style={{ width: "30%" }}
+                style={{ width: "30%", fontSize: "12px" }}
                 onClick={this.handleSearch}
               >
                 Generate
