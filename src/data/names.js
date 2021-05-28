@@ -1,4 +1,5 @@
 const stateArray = [
+  "select here",
   "uttarakhand",
   "uttarpradesh",
   "rajasthan",
@@ -16,6 +17,7 @@ const stateArray = [
   "goa",
 ];
 const districtArray = [
+  "select here",
   "agarmalwa",
   "ahmedabad",
   "alirajpur",
@@ -116,5 +118,15 @@ const districtArray = [
   "yamunanagar",
 ];
 
+const stateOption = stateArray.map((datas) => {
+  return <option>{datas}</option>;
+});
+
+const districtOption = districtArray.map((datas) => {
+  return <option>{datas}</option>;
+});
+
 export default stateArray;
 export { districtArray };
+export { stateOption };
+export { districtOption };

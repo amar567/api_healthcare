@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import stateArray from "../data/names.js";
+import { stateOption } from "../data/names.js";
 import copy from "copy-to-clipboard";
 
 class State extends Component {
@@ -49,12 +50,14 @@ class State extends Component {
               }}
               className="state_input"
             >
-              <input
+              <select
                 style={{ height: "40px", width: "70%" }}
                 placeholder="state name e.g uttarpradesh"
                 value={this.state.statename}
                 onChange={this.handleChange}
-              />
+              >
+                {stateOption}
+              </select>
               <button
                 className="btn btn-primary col-md-2"
                 style={{ width: "30%", fontSize: "12px" }}

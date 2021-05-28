@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { districtArray } from "../data/names.js";
+import { districtOption } from "../data/names.js";
+
 import copy from "copy-to-clipboard";
 
 class District extends Component {
@@ -54,13 +56,15 @@ class District extends Component {
                 }}
                 className="form-group"
               >
-                <input
+                <select
                   className=" district_input"
                   style={{ height: "40px", width: "70%" }}
                   placeholder="state name e.g ranchi"
                   value={this.state.districtname}
                   onChange={this.handleChange}
-                />
+                >
+                  {districtOption}
+                </select>
                 <button
                   className="btn btn-primary "
                   style={{ width: "30%", fontSize: "12px" }}
