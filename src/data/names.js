@@ -20,6 +20,7 @@ const districtArray = [
   "select here",
   "agarmalwa",
   "ahmedabad",
+  "allahabad",
   "alirajpur",
   "alorajpur",
   "ambala",
